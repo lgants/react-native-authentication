@@ -1,15 +1,49 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import firebase from 'firebase';
 import { Header } from './components/common';
 
 export default class App extends React.Component {
+
+  componentWillMount() {
+    firebase.initializeApp({
+      apiKey: "AIzaSyCAEe4MfyDWmrdCsMf9MfRk9ahxodyS47Q",
+      authDomain: "react-native-auth-40167.firebaseapp.com",
+      databaseURL: "https://react-native-auth-40167.firebaseio.com",
+      projectId: "react-native-auth-40167",
+      storageBucket: "react-native-auth-40167.appspot.com",
+      messagingSenderId: "501218300994"
+    });
+
+    firebase.auth().onAuthStateChanged(user => {
+      if (user) {
+        this.setState({ loggedIn: true });
+      } else {
+        this.setState({ loggedIn: false });
+      }
+    });
+  }
+
+  renderContent() {
+    switch (this.state.loggedIn) {
+      case true:
+        return (
+          <Button onPress={() => firebase.auth().signOut()}>
+            Log Out
+          </Button>
+        );
+      case false:
+        return <LoginForm />;
+      default:
+        return <Spinner size="large" />;
+    }
+  }
+
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <Header headerText="Authentication" />
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        {this.renderContent()}
       </View>
     );
   }
