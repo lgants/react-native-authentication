@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTTextFieldManager.m \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTTextFieldManager.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTShadowTextField.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTTextField.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h \
+  /Users/Logan/Development/udemy/complete_react_native_and_redux/react-native-authentication/node_modules/react-native/Libraries/Text/RCTUITextField.h
