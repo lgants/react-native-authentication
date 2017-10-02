@@ -1,21 +1,27 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import { View } from 'react-native';
 import firebase from 'firebase';
-import { Header } from './components/common';
+import { Header, Button, Spinner } from './components/common';
+import LoginForm from './components/LoginForm';
 
-export default class App extends React.Component {
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = { loggedIn: null };
+  }
+
 
   componentWillMount() {
     firebase.initializeApp({
-      apiKey: "AIzaSyCAEe4MfyDWmrdCsMf9MfRk9ahxodyS47Q",
-      authDomain: "react-native-auth-40167.firebaseapp.com",
-      databaseURL: "https://react-native-auth-40167.firebaseio.com",
-      projectId: "react-native-auth-40167",
-      storageBucket: "react-native-auth-40167.appspot.com",
-      messagingSenderId: "501218300994"
+      apiKey: 'AIzaSyBtxMY4K6uHxv_2e3GD-FWAD2ACX6lPVRE',
+      authDomain: 'authentication-70a18.firebaseapp.com',
+      databaseURL: 'https://authentication-70a18.firebaseio.com',
+      storageBucket: 'authentication-70a18.appspot.com',
+      messagingSenderId: '682333809338'
     });
 
-    firebase.auth().onAuthStateChanged(user => {
+    firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         this.setState({ loggedIn: true });
       } else {
@@ -49,11 +55,4 @@ export default class App extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
